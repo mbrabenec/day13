@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+ 
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+ 
+.wrapper {
+    
+    margin: 2em 0 0 0;
+    height: 80vh;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+}
+ 
+.button {
+    display: block;
+    margin: 2rem auto;
+}
