@@ -6,30 +6,29 @@ document.querySelector("#change__button").addEventListener("click", changeCol);
 
 function changeCol () {
 
-    let inputted = document.querySelectorAll("input");
     let values = [];
-
-
+    let inputted = document.querySelectorAll("input");
+    
     for (let i = 0; i < inputted.length -1; i++) {
         values.push(Number(inputted[i].value));
     }
 
-    if(isNaN(values[0]) || values[0] < 0 || values[0] > 255) {
+    if (isNaN(values[0]) || values[0] < 0 || values[0] > 255) {
         alert("check Red value: integers 0 - 255 inclusive");
         return;
     }
 
-    if(isNaN(values[1]) || values[1] < 0 || values[1] > 255) {
+    if (isNaN(values[1]) || values[1] < 0 || values[1] > 255) {
         alert("check Green value: integers 0 - 255 inclusive");
         return;
     }
 
-    if(isNaN(values[2]) || values[2] < 0 || values[2] > 255) {
+    if (isNaN(values[2]) || values[2] < 0 || values[2] > 255) {
         alert("check Blue value: integers 0 - 255 inclusive");
         return;
     }
 
-    if(isNaN(values[3]) || values[3] < 0 || values[3] > 1) {
+    if (isNaN(values[3]) || values[3] < 0 || values[3] > 1) {
         alert("check Alpha value:  0.0 - 1.0 inclusive");
         return;
     }
