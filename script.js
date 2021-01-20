@@ -11,7 +11,7 @@ function nidIsValid (id) {
     let year = Number(id.slice(0,2));
     let month = Number(id.slice(2,4)) % 50;   // and normalize
     let day = Number(id.slice(4,6));
-    let code = Number(id.slice(-4));
+    let code = Number(id);
     let leap = false;
 
     //format
