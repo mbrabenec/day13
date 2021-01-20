@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+.dice {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.dice_display {
+
+    background: url("side6.png");
+    background-size: cover;
+    height: 15em;
+    width: 15em;
+}
+
+.dice div {
+    padding: 1rem;
+}
+
+.dice input {
+    padding: 0.9rem;
+    margin: 1rem;
+}
+
+
