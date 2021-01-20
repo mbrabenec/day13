@@ -8,17 +8,35 @@
 </head>
 <body>
     
-    <div class="dice">
-        <h1>Dice Game</h1>
+    <div class="game">
+
+        <div class="dice__container">
+            <div class="dice dice1__display"></div>
     
-        <div class="dice_display dice--6"></div>
+            <div class="dice dice2__display"></div>
+        </div>
     
-        <div c>
-            <input type="button" class="button__lucky" value="Feeling Lucky?">
-            <input type="button" class="button__rolling" value="Rolling?">
+            <div>Bet:<div class="disp output__bet">50</div></div>
+            <div>Bank:<div class="disp output__bank">1000</div></div>
+
+
+        <div class="controls">
+
+            Bet:
+            <div class="slider">
+                <input type="range" min="1" max="1000" value="50" class="slider" id="myBet">
+            </div>
+            
+            <input type="button" class="button__under" value="Under">
+            <input type="button" class="button__over" value="Over">
+            <input type="button" class="button__lucky7" value="Lucky-7?">
+
         </div>
     </div>
 
+
+
+    
 
 
 

@@ -2,35 +2,82 @@
 	box-sizing: border-box;
 }
 
-.dice {
+.game {
 
     display: flex;
     flex-flow: column;
     align-items: center;
+    width: 30rem;
     margin: auto;
+
 }
 
+.dice__container {
+    display: flex;
+    justify-content: space-around;
 
-h1 {
-    text-align: center;
-    margin: 1rem;
 }
 
-.dice_display {
-
-    background: url("side6.png");
+.dice {
     background-size: cover;
-    height: 15em;
-    width: 15em;
+    height: 12em;
+    width: 12em;
+    margin: 2rem 1rem;
+
 }
 
-.dice div {
+.dice1__display {
+    background-image: url("side6.png");
+    
+}
+
+.dice2__display {
+    background-image: url("side6.png");
+
+}
+
+.disp {
+    width: 10rem;
+    height: 1.5rem;
+    padding: 0.25rem;
+    margin: 0.5rem;
+    background-color: lightgreen;
+}
+
+
+
+
+
+
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     padding: 1rem;
 }
 
-.dice input {
-    padding: 0.9rem;
-    margin: 1rem;
+.slider {
+    
+    flex-basis: 50%;
+    padding: 1rem;
+
 }
+
+
+.slider:hover {
+    opacity: 1;
+  }
+
+input {
+    width: 5rem;
+    margin: 0.5rem;
+}
+
+.slider {
+    width: 100%;
+}
+
+
+
 
 
