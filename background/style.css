@@ -1,23 +1,39 @@
 * {
     box-sizing: border-box;
+    
 }
  
 html, body {
     margin: 0;
     padding: 0;
     background-color: black;
+
 }
  
 .wrapper {
-    
     margin: 2em 0 0 0;
     height: 80vh;
     color: white;
     text-align: center;
     padding: 5rem;
+
 }
  
 .button {
     display: block;
     margin: 2rem auto;
+
+}
+
+.history__container {
+    width: 30vw;
+    height: 40vw;
+    margin: 0 0 2em 0;
+    padding: 0 0 2em 0;
+    overflow: auto;
+
+    margin: auto;
+    border: white dashed 2px;
+    text-align: center;
+    
 }
